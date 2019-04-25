@@ -6,5 +6,5 @@ This is the repo for different topics on c++. Trying to simplify my undrestandin
 
 2-Tiny programs (short programs to showcase STL usage):<br/>
 wordCounter.cpp - program read a text file and counts number of repeated words using a map collection:  map<string, int>wordsTally <br/>
-friendsList - program uses a compund collection to keep track of users' friends:     map<string, set<string> >friends <br/>
+friendsList - program uses a compund collection to keep track of users' friends:    ' map<string, set<string> >friends' <br/>
 
