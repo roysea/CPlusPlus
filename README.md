@@ -2,7 +2,7 @@
 - - - -
 I have started this repo to gather and add my codes as I learn C++. Please feel free to collaborate, comment or suggest a correction. :smile:<br/>
 ___Topics___  
-1- This is a rough draft of how to define pixels using arrays.   https://tinyurl.com/ydaqqnru  <br/>
+1- This is a rough draft of how to define pixels using arrays.   https://tinyurl.com/ydaqqnru  <br/><br/>
 ![imaging c++](imaging-c++.PNG)
 
 2-Tiny program folder contains short programs to showcase STL usage:<br/>
