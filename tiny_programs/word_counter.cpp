@@ -10,14 +10,16 @@ using namespace std;
 /*
 This function reads a text file and creates a map of words with their number counts. 
 Then it asks user to enter a word. if the word exists in the text file, 
-it will return the number of times it appeard in the text file.
+it will return the number of times it has appeard in the text file.
 */
 void wordCounter(string filename);
+
+void printWordList(const map<string, int>& theMap);
 
 int main()
 {
 	wordCounter("text/mobydick.txt");
-
+	
 	return 0;
 }
 
@@ -48,8 +50,13 @@ void wordCounter(string filename)
 		else
 			cout << "Word is not found!\n";
 	}
-	for (auto i : wordsTally)
-		cout << "(" << i.first << ", " << i.second << ") ";
+	// printWordList(wordsTally);
 
 	input.close();
+}
+
+void printWordList(const map<string, int>& theMap)
+{
+	for (auto i : theMap)
+		cout << "(" << i.first << ", " << i.second << ") ";
 }
