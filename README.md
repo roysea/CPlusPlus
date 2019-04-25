@@ -11,3 +11,4 @@ ___Topics___
 - [x] friendsList - program uses a compund collection to keep track of users' friends:    
           `map<string, set<string> >friends;` <br/>
 
+3-Study guide for C++ Standard Template Library https://roysea.github.io/ 
