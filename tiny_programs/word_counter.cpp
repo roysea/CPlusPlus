@@ -7,7 +7,11 @@
 #include <algorithm>
 
 using namespace std;
-
+/*
+This function reads a text file and creates a map of words with their number counts. 
+Then it asks user to enter a word. if the word exists in the text file, 
+it will return the number of times it appeard in the text file.
+*/
 void wordCounter(string filename);
 
 int main()
